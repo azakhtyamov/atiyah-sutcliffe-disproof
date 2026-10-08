@@ -14,7 +14,7 @@ The counterexample has 46 points: the helix points `(sin((2j+1)θ), (2j+1)·b, c
 with their images under the half-turn `(x, y, z) ↦ (−x, −y, z)`, and one pair moved to a zero of the Schur
 residual of the even coefficient block (`tan(θ/2) = a ≈ 0.0685930529198825`, `b ≈ 0.3018996198236849`).
 The zero is certified by a Newton–Kantorovich argument in 320-bit interval arithmetic that the Lean kernel
-re-evaluates; no floating point, no `native_decide`, no `sorry`.
+re-evaluates.
 
 ## Verify
 
