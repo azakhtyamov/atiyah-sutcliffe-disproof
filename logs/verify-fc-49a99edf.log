@@ -1,0 +1,484 @@
+formal-conjectures at 49a99edfc4a929db1c4dc7202f9a4d6b96ec0d24
+Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)
+Build completed successfully (8946 jobs).
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:94:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:96:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:301:1: warning: Variable name `hav` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hav
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:302:1: warning: Variable name `hmv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hmv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:303:1: warning: Variable name `hnv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hnv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:304:1: warning: Variable name `hiv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hiv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:305:1: warning: Variable name `hqv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hqv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:306:1: warning: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:307:1: warning: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:308:1: warning: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:309:1: warning: Variable name `hi` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hi
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:310:1: warning: Variable name `hq` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hq
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:311:1: warning: Variable name `hin` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hin
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:312:1: warning: Variable name `hqn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hqn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:313:1: warning: Variable name `htwo` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _htwo
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:364:35: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:458:1: warning: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:459:1: warning: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:460:1: warning: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:461:1: warning: Variable name `hi` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hi
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:505:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:507:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:574:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:576:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:614:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:885:31: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:933:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:935:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1128:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1130:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1252:1: warning: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1253:1: warning: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1254:1: warning: Variable name `hn` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hn
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1255:1: warning: Variable name `hq` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hq
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1289:1: warning: Variable name `hz` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hz
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1289:16: warning: Variable name `ho` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ho
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1289:31: warning: Variable name `hp` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hp
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1290:1: warning: Variable name `hs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1291:1: warning: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1292:1: warning: Variable name `hc` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hc
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1293:1: warning: Variable name `hf` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hf
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1294:1: warning: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1294:29: warning: Variable name `he` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _he
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1374:4: warning: Variable name `inv` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inv
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1566:4: warning: Variable name `di` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _di
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1681:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1683:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1698:1: warning: Variable name `hz` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hz
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1699:1: warning: Variable name `hs` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hs
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1700:1: warning: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1701:1: warning: Variable name `hi` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hi
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1838:31: warning: This simp argument is unused:
+  Ne.symm hik
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [σ, hik]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1867:17: warning: This simp argument is unused:
+  if_neg hki
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hsg, hki, false_and, if_false, A]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:1914:66: warning: This simp argument is unused:
+  true_and
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [show k + 1 ≤ j by omega, if_true, B, hki, hkj, and_self, if_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2080:10: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2357:21: warning: This simp argument is unused:
+  List.getElem?_append_right (show U.length ≤ n by omega)
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [augmented, hul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2366:41: warning: This simp argument is unused:
+  List.getElem?_range hj
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [row, List.getElem?_append, hj]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2369:15: warning: This simp argument is unused:
+  List.getElem?_append_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [row]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2406:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2408:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2607:44: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2607:65: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2644:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2646:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2667:2: warning: Variable name `hfix` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hfix
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2740:26: warning: This simp argument is unused:
+  List.getElem?_set
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [qts', List.getD, hlen]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2743:28: warning: This simp argument is unused:
+  List.getElem?_set
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [qts', List.getD, hlen]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2744:28: warning: This simp argument is unused:
+  List.getElem?_set
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [qts', List.getD, hlen, hj, h40, h17, Ne.symm h40, Ne.symm h17]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2879:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2881:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2883:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2982:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:2984:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3007:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3032:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3138:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3228:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3230:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3256:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3293:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3337:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3379:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3424:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3426:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3478:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3518:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3534:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3536:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3709:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3711:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3737:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3766:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3782:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3837:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3839:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3862:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3874:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3887:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3900:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3911:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3922:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3944:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3946:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3977:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3979:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:3996:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:4035:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:4077:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:4133:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:4135:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+/home/azat/projects/math/atiyah-sutcliffe-disproof/AtiyahSutcliffeDisproof.lean:4179:0: warning: This file has more than one module docstring (`/-! ... -/`). Only the first one is treated as module documentation; convert additional ones to regular comments (`/- ... -/`).
+
+Note: This linter can be disabled with `set_option linter.style.moduleDocstring false`
+'AtiyahSutcliffeDisproof.conjecture_one_false' depends on axioms: [propext, Classical.choice, Quot.sound]

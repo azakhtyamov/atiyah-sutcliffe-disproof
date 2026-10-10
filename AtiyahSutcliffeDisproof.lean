@@ -7,7 +7,7 @@ Atiyah–Sutcliffe conjecture 1, as formalised in google-deepmind/formal-conject
 an explicit injective configuration of 46 points in `ℝ³` whose point polynomials are linearly dependent.
 
 The file is the concatenation of the modules of the project
-https://github.com/<owner>/atiyah-sutcliffe-disproof/ (see its README for the mathematics and the layout):
+https://github.com/azakhtyamov/atiyah-sutcliffe-disproof/ (see its README for the mathematics and the layout):
 the lemma library `Atiyah.Facts` (verified lemmas from the Crucian study that found the witness; statements
 kept as generated), then the readable certificate layer `Atiyah.*` (interval arithmetic, dual numbers, the
 coefficient program, elimination, the Newton–Kantorovich check, the witness, the kernel checks, the
@@ -17,7 +17,7 @@ evaluation of the 320-bit certificate (peak memory about 16 GB).
 Verification: in a checkout of formal-conjectures at a commit with the same toolchain,
 `lake build 'FormalConjectures.Arxiv.«1102.4662».AtiyahSutcliffe'` then
 `lake env lean AtiyahSutcliffeDisproof.lean`; the last line printed is the axiom list of
-`AtiyahSutcliffe.conjecture_one_false`: `[propext, Classical.choice, Quot.sound]`.
+`AtiyahSutcliffeDisproof.conjecture_one_false`: `[propext, Classical.choice, Quot.sound]`.
 -/
 import FormalConjectures.Arxiv.«1102.4662».AtiyahSutcliffe
 import Mathlib.Analysis.InnerProductSpace.PiL2
@@ -4178,14 +4178,18 @@ theorem atiyah_sutcliffe_conjecture_one_disproof :
 
 /-! ## The conjecture of the repository is false -/
 
-namespace AtiyahSutcliffe
+namespace AtiyahSutcliffeDisproof
 
-/-- Atiyah–Sutcliffe Conjecture 1 is false: the 46-point configuration of `Atiyah.Certificate` is injective
-and its point polynomials are linearly dependent. -/
+/-- Atiyah–Sutcliffe Conjecture 1, `AtiyahSutcliffe.conjecture_one` of formal-conjectures, is false: the
+46-point configuration of `Atiyah.Certificate` is injective and its point polynomials are linearly
+dependent. formal-conjectures records this statement as `AtiyahSutcliffe.conjecture_one_false` (PR #6966);
+it is proved here under the file's own namespace so that the file checks against the repository both
+before and after that PR. -/
 theorem conjecture_one_false :
-    ¬ ∀ {n : ℕ} (x : Fin n → Point), Function.Injective x → LinearIndependent ℂ (pointPolynomial x) :=
+    ¬ ∀ {n : ℕ} (x : Fin n → AtiyahSutcliffe.Point), Function.Injective x →
+      LinearIndependent ℂ (AtiyahSutcliffe.pointPolynomial x) :=
   fun h => atiyah_sutcliffe_conjecture_one_disproof fun _ x hx => h x hx
 
-end AtiyahSutcliffe
+end AtiyahSutcliffeDisproof
 
-#print axioms AtiyahSutcliffe.conjecture_one_false
+#print axioms AtiyahSutcliffeDisproof.conjecture_one_false

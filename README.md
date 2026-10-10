@@ -5,10 +5,15 @@ as formalised in [google-deepmind/formal-conjectures](https://github.com/google-
 (`AtiyahSutcliffe.conjecture_one` in `FormalConjectures/Arxiv/1102.4662/AtiyahSutcliffe.lean`), is false:
 
 ```lean
-theorem AtiyahSutcliffe.conjecture_one_false :
-    ¬ ∀ {n : ℕ} (x : Fin n → Point), Function.Injective x → LinearIndependent ℂ (pointPolynomial x)
+theorem AtiyahSutcliffeDisproof.conjecture_one_false :
+    ¬ ∀ {n : ℕ} (x : Fin n → AtiyahSutcliffe.Point), Function.Injective x →
+      LinearIndependent ℂ (AtiyahSutcliffe.pointPolynomial x)
 -- depends on axioms: [propext, Classical.choice, Quot.sound]
 ```
+
+This is the statement that formal-conjectures records as `AtiyahSutcliffe.conjecture_one_false`
+([PR #6966](https://github.com/google-deepmind/formal-conjectures/pull/6966)); the proof lives under the
+file's own namespace so that it checks against the repository both before and after that PR.
 
 The counterexample has 46 points: the helix points `(sin((2j+1)θ), (2j+1)·b, cos((2j+1)θ))`, `j = 0 … 22`,
 with their images under the half-turn `(x, y, z) ↦ (−x, −y, z)`, and one pair moved to a zero of the Schur
@@ -23,11 +28,18 @@ formal-conjectures:
 
 ```
 lake build 'FormalConjectures.Arxiv.«1102.4662».AtiyahSutcliffe'
-lake env lean AtiyahSutcliffeDisproof.lean
+lake env lean /path/to/AtiyahSutcliffeDisproof.lean
 ```
 
-or `FC=/path/to/formal-conjectures ./verify.sh`. The file takes about ten minutes to check (kernel
-evaluation of the certificate; peak memory about 16 GB); the last line printed is the axiom list above.
+or `FC=/path/to/formal-conjectures ./verify.sh`, which runs the two commands above after printing the
+formal-conjectures commit and the Lean version, and exits with Lean's status. The file takes about ten
+minutes to check (kernel evaluation of the certificate; peak memory about 16 GB); the last line printed is
+the axiom list above.
+
+Verified at formal-conjectures `c53326acbefd6b337ef4a610bc9aa0c6aa59ebde` (the base of PR #6966) and at
+`49a99edfc4a929db1c4dc7202f9a4d6b96ec0d24` (the head of that PR, where the module already declares
+`AtiyahSutcliffe.conjecture_one_false`); the complete outputs of `verify.sh` are in [`logs/`](logs/). Any
+commit with the same definitions in `FormalConjectures/Arxiv/1102.4662/AtiyahSutcliffe.lean` works.
 
 ## Contents
 
@@ -196,7 +208,7 @@ that each interval version encloses the real one.
 results as literals: the 23 constant rows, the even block at the centre and over the ball, and the two
 eliminated tables. The kernel then re-checks every stage with `decide +kernel`, row by row, and finally
 checks the inequalities above. Nothing relies on trusting the compiler:
-`#print axioms AtiyahSutcliffe.conjecture_one_false` reports only `propext`, `Classical.choice` and
+`#print axioms AtiyahSutcliffeDisproof.conjecture_one_false` reports only `propext`, `Classical.choice` and
 `Quot.sound`.
 
 ## 7. From the zero to the theorem
